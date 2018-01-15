@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	//set slide start position in y axe
 	y = 0;
 	$( ".slide" ).each(function(i) {
-	$(this).addClass('slide-'+i);
+		$(this).addClass('slide-'+i);
 		$(this).css('top', y);
 		y += $( window ).height();
 	});
@@ -42,7 +42,7 @@ $( document ).ready(function() {
 			duration: 2800,
 			complete: function() {
 			   started_down = false;
-		  }
+		  	}
 		})
 
 	});
