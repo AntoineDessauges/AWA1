@@ -7,7 +7,7 @@ Dans le cadre du cours AWA1, j'ai réaliser un slider de produits comprenant des
 ## Rendu final
 Il est possible de parcourir les produits grâce aux flèches de navigations et de cliquer sur un bouton pour avoir un affichage plus détailler du produit.
 
-![gif](https://i.imgur.com/QeT00e7.gif)
+<img src="/doc/1.gif?raw=true">
 
 > Affichage sous forme de gif, s'il ne marche correctement veuillez le consuler sur [Github](https://github.com/AntoineDessauges/AWA1) ou avec le [lien directe](https://i.imgur.com/QeT00e7.gifv) vers le fichier.
 
