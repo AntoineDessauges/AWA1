@@ -21,6 +21,7 @@ html{
 .slide{
 	height: 100%;
 	position: relative;
+    top: 1000px;
 }
 
 .slide img{
