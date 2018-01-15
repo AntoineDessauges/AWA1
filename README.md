@@ -14,7 +14,7 @@ Il est possible de parcourir les produits grâce aux flèches de navigations et 
 ## Inspiration
 Afin de trouver une idée d'animation, je me suis rendu sur le site de [Codrops](https://tympanus.net/codrops/) et j'ai choisi le projet [Elastic Circle Slideshow](https://tympanus.net/codrops/2016/01/27/elastic-circle-slideshow/) comme source d'inspiration.
 
-![gif](https://kek.gg/i/6MSz4d.gif)
+<img src="/doc/2.gif?raw=true">
 
 > Affichage sous forme de gif, s'il ne marche correctement veuillez le consuler sur [Github](https://github.com/AntoineDessauges/AWA1) ou avec le [lien directe](https://tympanus.net/Development/ElasticCircleSlideshow/) vers la demo de Codrops.
 
