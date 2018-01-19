@@ -159,13 +159,13 @@ $( document ).ready(function() {
 		})
 
 		//create the close button
-		close = document.createElement('i');
-		close.classList.add('fa-times');
-		close.classList.add('fa');
-		slide.appendChild(close);
+		close_btn = document.createElement('i');
+		close_btn.classList.add('fa-times');
+		close_btn.classList.add('fa');
+		slide.appendChild(close_btn);
 
 		//add event on click on the close button
-		close.onclick = function() {
+		close_btn.onclick = function() {
 			
 			//animate background closing
 			dynamics.animate(bgd, {
@@ -177,7 +177,7 @@ $( document ).ready(function() {
 				complete: function(){ 
 					bgd.remove();
 					big_name.remove();
-					close.remove();
+					close_btn.remove();
 					bottom_infos.remove();
 					slide.style.zIndex  = "1";
 				}
