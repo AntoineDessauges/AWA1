@@ -2,29 +2,31 @@
 # AWA1 - Projet
 
 ## Description
-Dans le cadre du cours AWA1, j'ai réaliser un slider de produits comprenant des animations réaliser avec [Dynamics.js](http://dynamicsjs.com/).
+Dans le cadre du cours AWA1, j'ai réalisé un slider de produits comprenant des animations réaliser avec [Dynamics.js](http://dynamicsjs.com/).
 
 ## Rendu final
 Il est possible de parcourir les produits grâce aux flèches de navigations et de cliquer sur un bouton pour avoir un affichage plus détailler du produit.
 
 <img src="/doc/1.gif?raw=true">
 
-> Affichage sous forme de gif, s'il ne marche correctement veuillez le consuler sur [Github](https://github.com/AntoineDessauges/AWA1) ou avec le [lien directe](https://i.imgur.com/QeT00e7.gifv) vers le fichier.
+> Affichage sous forme de gif, s'il ne marche correctement veuillez le consulter sur [Github](https://github.com/AntoineDessauges/AWA1) ou avec le [lien directe](https://i.imgur.com/QeT00e7.gifv) vers le fichier.
 
 ## Inspiration
 Afin de trouver une idée d'animation, je me suis rendu sur le site de [Codrops](https://tympanus.net/codrops/) et j'ai choisi le projet [Elastic Circle Slideshow](https://tympanus.net/codrops/2016/01/27/elastic-circle-slideshow/) comme source d'inspiration.
 
 <img src="/doc/2.gif?raw=true">
 
-> Affichage sous forme de gif, s'il ne marche correctement veuillez le consuler sur [Github](https://github.com/AntoineDessauges/AWA1) ou avec le [lien directe](https://tympanus.net/Development/ElasticCircleSlideshow/) vers la demo de Codrops.
+> Affichage sous forme de gif, s'il ne marche correctement veuillez le consulter sur [Github](https://github.com/AntoineDessauges/AWA1) ou avec le [lien directe](https://tympanus.net/Development/ElasticCircleSlideshow/) vers la démo de Codrops.
+
+Je me suis uniquement inspirer du design, je n'ai pas repris de code. Mon projet a été entièrement codé par moi-même.
 
 ## Déploiement
-Afin de déployer le projet, télécharger le depuis le [Github](https://github.com/AntoineDessauges/AWA1) ou en le  clonant le avec git grâce à la commande suivante ( en vous plaçant dans le dossier ou vous voulez cloner le projet) : `git clone https://github.com/AntoineDessauges/AWA1.git`.
+Afin de déployer le projet, télécharger le depuis [Github](https://github.com/AntoineDessauges/AWA1) ou cloné le avec git grâce à la commande suivante ( en vous plaçant dans le dossier où vous voulez placer le projet) : `git clone https://github.com/AntoineDessauges/AWA1.git`.
 
-Il vous suffit d’exécuter le fichier `index.hmtl` avec votre navigateur, aucun environnement particulier n'es nécessaire.
+Il vous suffit d’exécuter le fichier `index.hmtl` avec votre navigateur, aucun environnement particulier n'est nécessaire.
 
 ## Fonctionnement
-Ce slider à été réaliser avec les outils et technologies suivantes :
+Ce slider a été réaliser avec les outils et technologies suivantes :
  
  - Html / Css
  - [JavaScript](https://www.javascript.com/)
@@ -33,7 +35,7 @@ Ce slider à été réaliser avec les outils et technologies suivantes :
  - [Font awesome](http://fontawesome.io/icons/)
  - [Google Fonts](https://fonts.google.com/)
 
-Le code est séparer en trois fichier :
+Le code est séparé en trois fichiers :
 
  - index.html
  - main.js
@@ -43,11 +45,11 @@ Le code est séparer en trois fichier :
 Contient le style du slider.
 
 ### main.js
-Contient tous le code Javascript ainsi que les animations
+Contient tout le code Javascript ainsi que les animations
 
 ### index.html
 Contient le code html affichant la page.
-C'est à cette endroit que l'on défini le contenu des slides et que l'on peut en rajouter ou en supprimer. Pour cela il faut respecter la strucutre défini pour le slider :
+C'est à cet endroit que l'on définit le contenu des slides et que l'on peut en rajouter ou en supprimer. Pour cela il faut respecter la structure définie pour le slider :
 
     <div class="container">
         <div class="slider">
