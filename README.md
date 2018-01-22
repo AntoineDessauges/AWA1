@@ -18,7 +18,7 @@ Afin de trouver une idée d'animation, je me suis rendu sur le site de [Codrops]
 
 > Affichage sous forme de gif, s'il ne marche correctement veuillez le consulter sur [Github](https://github.com/AntoineDessauges/AWA1) ou avec le [lien directe](https://tympanus.net/Development/ElasticCircleSlideshow/) vers la démo de Codrops.
 
-Je me suis uniquement inspirer du design, je n'ai pas repris de code. Mon projet a été entièrement codé par moi-même.
+Je me suis uniquement inspirer du design, je n'ai pas repris de code. Mon projet a été entièrement refait par moi-même.
 
 ## Déploiement
 Afin de déployer le projet, télécharger le depuis [Github](https://github.com/AntoineDessauges/AWA1) ou cloné le avec git grâce à la commande suivante ( en vous plaçant dans le dossier où vous voulez placer le projet) : `git clone https://github.com/AntoineDessauges/AWA1.git`.
@@ -27,7 +27,7 @@ Il vous suffit d’exécuter le fichier `index.hmtl` avec votre navigateur, aucu
 
 ## Fonctionnement
 Ce slider a été réaliser avec les outils et technologies suivantes :
- 
+
  - Html / Css
  - [JavaScript](https://www.javascript.com/)
  - [Dynamics.js](http://dynamicsjs.com/)
@@ -71,5 +71,5 @@ C'est à cet endroit que l'on définit le contenu des slides et que l'on peut en
                 <p class="desc">Description guitare 2</p>
             </div>
             </div>
-            // insérer une ou plusieurs slides ici si désirer 
+            // insérer une ou plusieurs slides ici si désirer
     </div>
